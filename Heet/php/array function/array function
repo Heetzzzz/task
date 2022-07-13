@@ -1,0 +1,37 @@
+	array_chunk()	Splits an array into chunks of arrays
+	array_column()	Returns the values from a single column in the input array
+	array_combine()	Creates an array by using the elements from one "keys" array and one "values" array
+	array_count_values()	Counts all the values of an array
+	array_diff()	compair two or more arrays and return diff values which are in array1
+
+array_flip()		make keys to values and values to key
+array_intersect()	compair two or more arrays adn return matches and take the key of first array
+array_key_exists()	Checks if the specified key exists in the arrays
+
+	array_keys()	Returns all the keys of an array
+	array_map()	Sends each value of an array to a user-made function, which returns new values
+	array_merge()	Merges one or more arrays into one array
+array_merge_recursive()	Merges one or more arrays into one array recursively
+	array_multisort()	Sorts multiple or multi-dimensional arrays
+	array_pad()		Inserts a specified number of items, with a specified value, to an array
+	array_pop()		Deletes the last element of an array
+
+	array_push()	Inserts one or more elements to the end of an array
+array_rand()		Returns one or more random keys from an array
+array_reduce()		Returns an array as a string, using a user-defined function
+	array_replace()	Replaces the values of the first array with the values from following arrays
+array_replace_recursive()	Replaces the values of the first array with the values from following arrays recursively
+array_reverse()		Returns an array in the reverse order
+array_search()		Searches an array for a given value and returns the key
+	array_shift()	Removes the first element from an array, and returns the value of the removed element
+	array_slice()	Returns selected parts of an array
+	array_splice()	Removes and replaces specified elements of an array
+	array_sum()		Returns the sum of the values in an array
+	array_unique()	Removes duplicate values from an array
+array_unshift()		Adds one or more elements to the beginning of an array
+	array_values()	Returns all the values of an array
+	compact()
+	count()			Returns the number of elements in an array
+	current()		Returns the current element in an array
+	in_array()
+	list()
