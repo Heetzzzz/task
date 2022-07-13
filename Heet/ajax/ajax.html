@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX</title>
+</head>
+<body>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+	<script type="text/javascript">
+		
+		// $(document).ready(function(){
+		// 	$("#btnclick").click(function(){
+		// 		$("#loaddata").load("load.html");
+		// 	});
+		// });
+
+		function myFun(){
+			
+			var req = new XMLHttpRequest();
+			req.open('Get','load.html',true);
+			req.send();
+
+			req.onreadystatechange = function(){
+				if(req.readyState == 4 && req.status == 200){
+					document.getElementById("loaddata").innerHTML = req.responseText;
+				}
+			}
+		}
+
+	</script>
+
+</body>
+	
+	<div class="container">
+		<div id="loaddata">
+			<h2>This is Heet Patel</h2>
+		</div>
+		<button id="btnclick" class="btn btn-success" onclick="myFun()">Click</button>
+	</div>
+
+</html>
